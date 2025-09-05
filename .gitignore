@@ -1,25 +1,12 @@
-# Python
-__pycache__/
-*.pyc
-.venv/
 venv/
+__pycache__/
 .env
-.env.local
-# Chroma / DB
-.chroma/
-chromadb.db
-rt_publications_db/
-
-# Data and models
-data/raw/
-models/
-*.pt
-*.pth
-
-# Editors
-.vscode/
-.idea/
-
-# OS
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.db
+*.sqlite3
 .DS_Store
 Thumbs.db
+.ipynb_checkpoints/
