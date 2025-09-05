@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.local
+# Chroma / DB
+.chroma/
+chromadb.db
+rt_publications_db/
+
+# Data and models
+data/raw/
+models/
+*.pt
+*.pth
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
